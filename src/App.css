@@ -1,0 +1,41 @@
+input{
+  padding:1.3rem 5rem;
+  border:none;
+  font-size: 1.1rem;
+}
+.add-btn{
+  padding: 1.3rem;
+  font-size: 1.1rem;
+}
+
+button{
+  border:none;
+  margin-right: 5px;
+
+}
+
+button:hover{
+  transform: scale(0.98);
+  transition: linear 0.8s;
+  cursor: pointer;
+}
+.checked{
+  color:rgb(10, 10, 225);
+  text-decoration: line-through;
+}
+.todo{
+  display: flex;
+}
+
+.check-btn{
+  color:rgb(67, 2, 2);
+  background-color: rgb(217, 232, 238);
+}
+.delete-btn{
+  color: rgb(209, 226, 12);
+  background-color: rgb(191, 8, 198);
+}
+body{
+  background-image: url("https://choretell.com/wp-content/uploads/Black-and-white-to-do-list.png");
+  background-size: cover;
+}
